@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+header {
+    text-align: right;
+    background-color: rgb(41, 41, 41);
+    padding: 5px;
+}
+.header {
+    display: inline;
+    color: white;
+}
+
+header > ul {
+    position: sticky;
+    top: 0;
+}
+header > ul > a {
+    text-decoration: none;
+    display: inline;
+    margin-right: 1%;
+    padding: 10px;
+    background-color: rgb(95, 44, 143);
+    border-radius: 4px;
+}
+
+header > ul > a:hover {
+    background-color: rgb(43, 20, 65);
+    color: black;
+}
+
+section > h1 {
+    position: absolute;
+    color: rgb(54, 119, 156);
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-top: 0%;
+    margin-left: 15px;
+}
+
+section > p {
+    color: grey;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+section > a {
+    text-align: right;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 87%;
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    background-color: rgb(95, 44, 143);
+    padding: 13px 30px;
+}
+
+section > a:hover {
+    background-color: rgb(43, 20, 65);
+    color: white;
+}
