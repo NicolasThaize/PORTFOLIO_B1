@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Document</title>
     <meta name="description" content="">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.ico">
     <!--Open graph-->
 
     <!--Twitter card-->
 
     <!--css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <link rel="stylesheet" href="css/bulma.css.css">
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/helpers.css">
 
     <!--javascript-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js">
     <script src="https://kit.fontawesome.com/cc0c487cec.js" crossorigin="anonymous"></script>
 
 </head>
@@ -26,51 +25,88 @@
             <div class="columns is-mobile is-marginless">
                 <div class="column left">
                     <figure class="image">
-                        <img src="img/logo.png" style="width: 5rem;">
+                        <a href="index.html"><img src="img/logo.png" style="width: 5rem;" alt="Logo"></a>
                     </figure>
                 </div>
                 <div class="column center desktop has-text-weight-bold">
-                    <p class="navbar-item has-text-black">ABOUT ME</p>
-                    <p class="navbar-item has-text-black">MY WORKS</p>
-                    <p class="navbar-item has-text-black">MY SKILLS</p>
+                    <a class="navbar-item has-text-black left">ABOUT ME</a>
+                    <i class="fas fa-circle has-text-black" style="font-size: 0.3rem"></i>
+                    <a class="navbar-item has-text-black mid">MY WORKS</a>
+                    <i class="fas fa-circle has-text-black" style="font-size: 0.3rem;"></i>
+                    <a class="navbar-item has-text-black right">MY SKILLS</a>
                 </div>
                 <div class="column right">
-                    <p class="navbar-item desktop" style="color: rgb(33,33,33);">Contact</p>
-                    <p class="navbar-item desktop" style="color: rgb(33,33,33);">LinkedIn</p>
+                    <div class="right desktop">
+                        <a class="navbar-item" style="color: rgb(33,33,33);">Contact</a>
+                        <a class="navbar-item" style="color: rgb(33,33,33);">LinkedIn</a>
+                    </div>
+
                     <figure class="navbar-item image">
-                        <i class="fas fa-bars" style="color: rgb(33,33,33);"></i>
+                        <i class="fas fa-bars" style="color: rgb(33,33,33); font-size: 1.5rem;"></i>
                     </figure>
                 </div>
             </div>
         </div>
         <div class="hero-body">
-            <div class="container">
+            <div class="container is-fluid">
                 <div class="columns is-mobile">
-                    <div class="column is-half">
-                        <p class="has-text-white has-text-weight-bold" style="font-size: 2em">Nicolas THAIZE</p>
-                        <p class="has-text-white">
-                            Nicolas THAIZE, 18, actually in formation in computing currently
-                            studying in computer science at YNOV and member of several projects related to this domain.
+                    <div class="column">
+                        <p class="has-text-black-bis has-text-weight-bold center" style="font-size: 2em">Nicolas THAIZE</p>
+                        <p class="has-text-grey-light center">
+                            Web Designer & Developper
                         </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="hero-foot">
-            <div class="container">
-                <div class="columns is-mobile is-centered">
-                    <div class="column is-full"> 
-                        <h1 class="title is-size-1-desktop is-size-2-touch is-uppercase is-family-code glitch" data-text="Vinetos">
-                            Vinetos
-                        </h1>
-                        <p class="has-text-centered is-size-3">Scroll maggle</p>
+            <div class="center is-mobile is-centered">
+                <figure class="image is-64x64">
+                    <img src="img/scroll.png" alt="Icone scroll">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="hero-body">
+            <h2 class="center has-text-black has-text-weight-bold subtitle is-2">ABOUT ME</h2>
+            <div class="center columns">
+                <div class="column right">
+                    <div class="content">
+                        <p>
+                            Hi, my name is <strong>Nicolas THAIZE</strong>, i'm 18, actually in formation in computing
+                            currently studying in computer science at <i>YNOV</i> and member of several projects
+                            related to this domain.
+                        </p>
+                        <p>
+                            In the near future I would like to <strong>specialize myself</strong> in the
+                            <strong>web</strong> by validating my master's degree in web development.
+                        </p>
+                        <p>
+                            Actually freelancer, I make websites with love and rigor.
+                        </p>
                     </div>
+                </div>
+                <div class="column">
+                    <p>tamer</p>
                 </div>
             </div>
         </div>
     </section>
     <section>
-
+        <div class="hero-foot has-background-black-ter">
+            <div class="container">
+                <div class="columns is-mobile is-marginless">
+                    <div class="column center has-text-grey-light">
+                        <p>Designed & Developped by © 2020 Nicolas THAIZE.</p>
+                    </div>
+                    <div class="column center">
+                        <a class="navbar-item">Mentions Légales</a>
+                        <a class="navbar-item">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
