@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
 
 // Set your brand colors
 
@@ -12,7 +13,8 @@ $grisFonce: #7A7A7A;
 
 // Update some of Bulma's component variables
 $navbar-item-hover-background-color: $transparent;
-$family-sans-serif: "Quicksand", sans-serif;
+$family-primary: 'Montserrat', sans-serif;
+$family-secondary: 'Noto Sans KR', sans-serif;
 $navbar-item-hover-color: $grisFonce;
 
 
