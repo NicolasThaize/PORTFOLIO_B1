@@ -1,3 +1,7 @@
+body{
+    z-index: 99;
+}
+
 .center, .center-column, .top, .right, .bottom, .left {
     display: flex;
     justify-content: center;
@@ -24,11 +28,45 @@
 }
 
 
-.hero {
+.absolute{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cardTxtCustom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.cardTxtCustom h2 {
+    padding-bottom: 10px;
+}
+
+.cardBgCustom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bgFull {
     background: black url('../img/background.jpg') center / cover;
 }
 
-.left:before {
+.leftAnim:before {
     content: "";
     position: absolute;
     width: 0;
@@ -40,12 +78,12 @@
     transition: all 0.3s ease-in-out;
 }
 
-.left:hover:before {
+.leftAnim:hover:before {
     visibility: visible;
     width: 100%;
 }
 
-.mid:before {
+.midAnim:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -58,12 +96,12 @@
     transition: all 0.3s ease-in-out;
 }
 
-.mid:hover:before {
+.midAnim:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
 
-.right:before {
+.rightAnim:before {
     content: "";
     position: absolute;
     width: 0;
@@ -75,7 +113,58 @@
     transition: all 0.3s ease-in-out;
 }
 
-.right:hover:before {
+.rightAnim:hover:before {
     visibility: visible;
     width: 100%;
+}
+
+.alignText {
+    text-align: center;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #575757;
+}
+
+
+.animCard::before {
+    /* Position the pseudo-element. */
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    box-shadow: inset 0 0 0 12px;
+
+    opacity: 0;
+    zoom: 0;
+    transition: opacity 800ms;
+}
+
+.animCard:hover::before {
+    opacity: 1;
+}
+
+.txtSlide {
+    color: white;
+    position: absolute;
+    transform: translateY(-300px);
+    opacity: 0;
+    transition: 800ms;
+}
+
+.absolute:hover .txtSlide {
+    color: black;
+    transition: 800ms;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.animCard:hover .cardBgCustom {
+    transition: 800ms;
+    opacity: 0.3;
 }
