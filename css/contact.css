@@ -14,6 +14,13 @@ input{
     background-color: black!important;
     border-radius: 0!important;
     color: white;
+    transition: 300ms;
+}
+
+.styleButton:hover{
+    transition: 300ms;
+    color: #262626;
+    background-color: white!important;
 }
 
 .marginContact{

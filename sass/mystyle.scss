@@ -7,6 +7,8 @@
 
 $transparent: rgba(0, 0, 0, 0);
 $grisFonce: #7A7A7A;
+$bleuClair: #808795;
+$noir: #000000;
 $blanc: #FFFF;
 
 // Update Bulma's global variables
@@ -17,7 +19,10 @@ $navbar-item-hover-background-color: $transparent;
 $family-primary: 'Montserrat', sans-serif;
 $family-secondary: 'Noto Sans KR', sans-serif;
 $navbar-item-hover-color: $grisFonce;
+$link-hover: $bleuClair;
+$link: $noir;
 $button-text-hover-color: $blanc;
+$button-hover-border-color: $noir;
 
 
 // Import only what you need from Bulma
