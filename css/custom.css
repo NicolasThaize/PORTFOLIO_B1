@@ -38,8 +38,28 @@
 }
 
 .bgFull {
-    /*background: black url('../img/background.jpg') center / cover;*/
-    background-color: #eeeeee;
+    background: black url('../img/background.jpg') center / cover;
+    /*background-color: #eeeeee;*/
+}
+
+.bgBlank {
+    background: black url("../img/bgBlank.jpg") center / cover;
+}
+
+.bgContact {
+    background: black url('../img/bgBlank.jpg') center / cover;
+}
+
+.borderNav {
+    border-bottom: rgb(38,38,38) solid 2px;
+}
+
+.noShadow {
+    box-shadow: none!important;
+}
+
+.borderBottom {
+    border-bottom: solid;
 }
 
 /* Animation soulignement header */

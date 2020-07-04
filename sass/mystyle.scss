@@ -23,7 +23,7 @@ $link-hover: $bleuClair;
 $link: $noir;
 $button-text-hover-color: $blanc;
 $button-hover-border-color: $noir;
-
+$card-shadow: none;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
