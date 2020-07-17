@@ -54,12 +54,23 @@
     border-bottom: rgb(38,38,38) solid 2px;
 }
 
+.navCustom {
+    width: 100%;
+    top: 104px;
+    position: absolute;
+    z-index: 10;
+}
+
 .noShadow {
     box-shadow: none!important;
 }
 
 .borderBottom {
     border-bottom: solid;
+}
+
+.marginTxt {
+    margin-bottom: 170px;
 }
 
 /* Animation soulignement header */
@@ -144,7 +155,7 @@
 
 .animMouse {
     position: relative;
-    animation: mymoveUp 3s;
+    animation: mymoveUp 2s;
     animation-iteration-count: infinite;
 }
 
