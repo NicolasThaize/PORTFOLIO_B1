@@ -23,6 +23,17 @@
     }
 }
 
+
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+}
+
 .alignText {
     text-align: center;
 }
@@ -168,3 +179,23 @@
 .marginLinks{
     margin: 5px 10px;
 }
+
+
+.terms{
+    padding-bottom: 50px;
+}
+.terms h2{
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+.terms h3{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.terms p{
+    margin-left: 1em;
+    text-align: justify;
+}
+
