@@ -91,6 +91,12 @@
     margin-right: 10px;
 }
 
+@media (max-width: 1024px) {
+    .marginRightWorks{
+        margin-right: 0px;
+    }
+  }
+
 .card{
     box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2)!important;
 }
