@@ -23,6 +23,11 @@
     }
 }
 
+@media (width: 1024px) {
+    .navShow {
+        display: flex
+    }
+}
 
 body {
     display:flex;

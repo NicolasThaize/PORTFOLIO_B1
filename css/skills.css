@@ -12,3 +12,7 @@
 .marginBottom20 {
     margin-bottom: 20px;
 }
+
+.forceMB {
+    margin-bottom: 30px!important;
+}
