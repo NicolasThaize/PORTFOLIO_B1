@@ -21,11 +21,18 @@
     .desktop {
         display: none;
     }
+
+    body{
+        overflow-x: hidden;
+    }
 }
 
 @media (width: 1024px) {
     .navShow {
         display: flex
+    }
+    body{
+        overflow-x: hidden;
     }
 }
 
