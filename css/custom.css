@@ -180,6 +180,7 @@ body {
     position: relative;
     animation: mymoveUp 2s;
     animation-iteration-count: infinite;
+    cursor: pointer;
 }
 
 @keyframes mymoveUp {
