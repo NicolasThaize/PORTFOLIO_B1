@@ -100,4 +100,10 @@
 .card{
     box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2)!important;
     margin-bottom: 5px!important;
+    width: 500px;
+}
+
+#cardContainer
+{
+    flex-wrap: wrap;
 }
