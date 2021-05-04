@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     z-index: 1;
+    width: 90%;
 }
 
 .cardTxtCustom i {
@@ -82,6 +83,7 @@
     transition: 500ms ease-in-out;
     height: 100%;
     color: white;
+    width: 90%;
 }
 
 /* END Animation carte après hover  works .html */
@@ -95,15 +97,22 @@
     .marginRightWorks{
         margin-right: 0px;
     }
-  }
+    .cardTxtCustom{
+        width: 100%;
+    }
+
+    .animCard:hover .cardTxtCustom {
+        width: 100%;
+    }
+}
 
 .card{
     box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2)!important;
     margin-bottom: 5px!important;
-    width: 500px;
 }
 
 #cardContainer
 {
+    margin: auto;
     flex-wrap: wrap;
 }
