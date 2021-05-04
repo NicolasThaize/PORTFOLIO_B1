@@ -23,6 +23,11 @@
     width: 90%;
 }
 
+.ogtCard{
+    display: flex;
+    justify-content: center;
+}
+
 .cardTxtCustom i {
     padding-top: 5px;
     padding-bottom: 5px;
